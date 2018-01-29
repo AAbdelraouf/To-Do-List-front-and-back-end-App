@@ -1,0 +1,45 @@
+
+#theAboutParagraph{
+    position: absolute;
+    left: 300px;
+    top: 150px;
+    height: 40%;
+    width: 40%;
+    font-size: 20px;
+    padding-top: 150px;
+    padding-right: 100px;
+    padding-left: 100px;
+    background-color: lightcoral;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+}
+
+/* Styled the About button */
+#theAboutButton{
+    position: relative;
+    width: 11%;
+    top:38px;
+    left: 30px;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}
+
+@media only screen and (max-width: 768px){
+    #theAboutButton{
+        width: 25%;
+        height: 8%;
+        font-size: 10pt;}
+
+    #wholeSection{
+        width: 140%;
+        position: relative;
+        bottom: 300px;
+        right: 120px;
+    }
+}

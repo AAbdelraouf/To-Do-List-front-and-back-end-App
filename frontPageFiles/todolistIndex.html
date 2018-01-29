@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My to-do-list</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+<link rel="stylesheet" href="/todolistStyle.css">
+<script src="/todolistScript.js"></script>
+
+</head>
+<body>
+<center>
+<div id='wholeSection'>
+    <button id="theAboutButton">About ></button>
+    <!-- Main header  -->
+    <h1 id="mainHeader"> Welcome to TO-DO-LIST website </h1>
+    <p id="theAboutParagraph" align="center"></p>
+    <div id="engineSection">
+        <h3 id="subHeader">Take care of your daily to do lists</h3>
+<!-- Initializing main Div for the To Do List engine -->
+<div class="toDoListEngine">
+ <h2 id="engineText"> Write your list below </h2>
+<div> <input type="text" placeholder="Input here... " id="toDoListinputField" />
+<input type="submit"  value="ADD >>" id="addButton" >  </input> </div>
+</div>
+
+<div>
+  <ul id="unorderedList">
+</ul>
+</div>
+<ol>
+</ol>
+
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

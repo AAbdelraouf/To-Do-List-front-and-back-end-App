@@ -1,0 +1,117 @@
+
+/* setting the body proprties */
+#body{
+    background-color: whitesmoke;}
+
+#wholeSection{
+    width: 100%;}
+
+/* Title on page  */
+#mainHeader{
+    color: lightslategray;}
+
+#theAboutButton{
+    width: 12%;
+    position: relative;
+    right: 40%;
+    top: 50px;
+    margin-left: 30px;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}
+
+/* About the game paragraph */
+#theAboutParagraph{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)}
+
+/* styling the board message h2  */
+#engineText{
+    color: white;
+    padding-right: 250px;}
+
+#subHeader{
+    color: lightslategray;}
+
+/* Styling the To Do List engine */
+.toDoListEngine{
+    left: 200px;
+    margin-top: 50px;
+    padding-top: 20px;
+    width: 50%;
+    height: 150px;
+    background-color: lightcoral;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: 1px solid white;}
+
+/* Style the search engine input field */
+#toDoListinputField{
+    border: none;
+    width: 50%;
+    padding: 10px;
+    float: center;
+    font-size: 16px;
+    border: 1px solid darkcyan;
+    background: white;}
+
+/* Styling the "Add >>" button */
+#addButton{
+    padding: 10px;
+    width: 18%;
+    background: #E0E0E0;
+    color: #555;
+    float: center;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid lightcoral;}
+
+/* When hovered over the 'ADD >>' button */
+#addButton:hover{
+    background-color: lightcoral;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}
+
+/* Styling the "X" or delete button */
+#deleteList{
+    position: relative;
+    /* bottom: 200px; */
+    left: 42px;
+    bottom: 5px;
+    float: right;
+    background-color: lightcoral;
+    border: none;
+    font-size: 20pt;}
+
+/* When hovered over the "X" button*/
+#deleteList:hover{
+    color: red;
+    cursor: pointer;}
+
+/* When hovering ovver exsisting To Do lists */
+.apendedToDoList:hover{
+    background-color: #dddddd;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}
+
+#appendedNoteId{
+    position: relative;
+    background-color: whitesmoke;
+    width: 43%;
+    padding: 10px;
+    float: center;
+    font-size: 20pt;
+    margin-top: 5px;
+    padding-top: 20px;
+    text-align: left;
+    border: 1px solid darkcyan;
+    border-style: solid;
+    border-right-color: lightcoral;
+    border-right-width: 40px;
+    cursor: pointer;
+    color: gray;
+    font-style: oblique;
+}
