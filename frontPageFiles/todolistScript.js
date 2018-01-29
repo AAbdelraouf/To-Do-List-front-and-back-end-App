@@ -2,8 +2,6 @@
 $(document).ready(function()
 {
 console.log('hello!');
-alert('hello')
-
 var config = {
     apiKey: "AIzaSyCTrdMLR3CE3z0OEIVYRTMt5SAfjkTrshE",
     authDomain: "dailytodolists.firebaseapp.com",
@@ -21,7 +19,7 @@ var databaseRef = firebase.database().ref('todolists');
 databaseRef.on('child_added', function(storedNote){
     var newelyAdded = storedNote.val();
     var storedNotsId = storedNote.key
-    $("#unorderedList").after("<div  id='appendedNoteId' class='apendedToDoList'>"  + newelyAdded.note +  "<input type='button' id='deleteList' value='x'>  </div> ");
+    $("#unorderedList").after("<div  id='appendedNoteId' class='apendedToDoList'>" + newelyAdded.note +  "<input type='button' id='deleteList' value='x'>  </div> ");
     $('#toDoListinputField').val('');
 
 // Remove items //
@@ -55,7 +53,6 @@ function deactivateLists(){
         })
   };
   deactivateLists();
-
 })
 
 // storing new notes //
@@ -66,11 +63,12 @@ $('#addButton').on('click', function(){
       $("#engineText").html("Enter Valid value first");
       $("#engineText").css('color', 'red');
     }
-    else{
+    else
+        {
         databaseRef.push({
             note: $('#toDoListinputField').val()
-        })
-    }
+        }
+      )}
 });
 
 //About the game section //
